@@ -1,0 +1,218 @@
+* {
+   font-family: lato;
+   box-sizing: border-box;
+}
+
+main {
+   margin-top: 64px;
+}
+
+.cyan {
+   max-width: 1604px;
+   width: 100%;
+   background-color: #E2F7FF;
+   margin: auto;
+   padding: 96px 196px;
+   height: 2108px;
+   margin-bottom:368px;
+}
+
+#qali {
+   display: block;
+}
+
+.ux {
+   display: inline-block;
+   width: 100%;
+}
+
+.ux>div,
+.card>div {
+   display: inline-block;
+}
+
+.icon {
+   display: inline-block;
+   vertical-align: top;
+   width: 450px;
+   text-align: right;
+   padding-top: 52px;
+}
+
+.ux>div:first-child,
+.card>div:first-child {
+   color: #6941C6;
+   font-family: Inter;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 20px;
+   /* 142.857% */
+}
+
+.ux>div>h1,
+.card>div:first-child>h1 {
+   color: #181D27;
+   font-family: Inter;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 38px;
+   /* 126.667% */
+}
+
+.ux>div>h1+p,
+.card>div:first-child>h1+p {
+   overflow: hidden;
+   color: #535862;
+   text-overflow: ellipsis;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+   /* 150% */
+}
+
+
+.buttons {
+   width: 100%;
+   margin: 24px 0;
+}
+
+.button1 {
+   padding: 8px 12px;
+   border-radius: 9999px;
+   border: 1px solid #E9D7FE;
+   background-color: #F9F5FF;
+   color: #6941C6;
+   text-align: center;
+   font-family: Inter;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 20px;
+   margin-right: 20px;
+   /* 142.857% */
+}
+
+.button2 {
+   color: #3538CD;
+   text-align: center;
+
+   /* Text sm/Medium */
+   font-family: var(--Font-family-font-family-body, Inter);
+   font-size: var(--Font-size-text-sm, 14px);
+   font-style: normal;
+   font-weight: 500;
+   line-height: var(--Line-height-text-sm, 20px);
+   /* 142.857% */
+   padding: 8px 12px;
+   border-radius: 9999px;
+   border: 1px solid #C7D7FE;
+   background-color: #EEF4FF;
+   margin-right: 20px;
+}
+
+.button3 {
+   border-radius: var(--radius-full, 9999px);
+   border: 1px solid #FCCEEE;
+   background: #FDF2FA;
+   color: #C11574;
+   text-align: center;
+   padding: 8px 12px;
+   font-family: var(--Font-family-font-family-body, Inter);
+   font-size: var(--Font-size-text-sm, 14px);
+   font-style: normal;
+   font-weight: 500;
+   line-height: var(--Line-height-text-sm, 20px);
+   /* 142.857% */
+   margin-right: 20px;
+}
+
+.card>div:first-child>h1 {
+   font-size: 24px;
+}
+
+.list {
+   width: 100%;
+   margin-top: 64px;
+}
+
+.icon2 {
+   position: relative;
+   top: -150px;
+   right: -350px;
+}
+
+.list {
+   display: inline-block;
+}
+
+.card {
+   max-width: 384px;
+   display: inline-block;
+   margin-right: 16px;
+}
+
+#greenbtn {
+   background-color: #ABEFC6;
+   color: #067647
+}
+
+.cardbutton {
+   display: block;
+   width: 100%;
+}
+
+.button4 {
+   color: #026AA2;
+   text-align: center;
+
+   font-family: var(--Font-family-font-family-body, Inter);
+   font-size: var(--Font-size-text-sm, 14px);
+   font-style: normal;
+   font-weight: 500;
+   line-height: var(--Line-height-text-sm, 20px);
+   /* 142.857% */
+   padding: 8px 12px;
+   border-radius: var(--radius-full, 9999px);
+   border: 1px solid #B9E6FE;
+   background-color: #F0F9FF;
+   margin-right: 10px;
+}
+
+.button5 {
+   color: #C11574;
+   text-align: center;
+   border-radius: var(--radius-full, 9999px);
+   border: 1px solid #FCCEEE;
+   background: #FDF2FA;
+   padding: 8px 12px;
+   margin-right: 10px;
+
+   font-family: var(--Font-family-font-family-body, Inter);
+   font-size: var(--Font-size-text-sm, 14px);
+   font-style: normal;
+   font-weight: 500;
+   line-height: var(--Line-height-text-sm, 20px);
+   /* 142.857% */
+}
+
+.button6 {
+   padding: 8px 12px;
+   border-radius: var(--radius-full, 9999px);
+   border: 1px solid #FCCEEE;
+   background: #FDF2FA;
+   color: #C11574;
+   margin-right: 10px;
+   text-align: center;
+
+   /* Text sm/Medium */
+   font-family: var(--Font-family-font-family-body, Inter);
+   font-size: var(--Font-size-text-sm, 14px);
+   font-style: normal;
+   font-weight: 500;
+   line-height: var(--Line-height-text-sm, 20px);
+   /* 142.857% */
+}
